@@ -10,8 +10,8 @@ import Profile from "./Profile";
 import Dessert from "./Desserts";
 import Drinks from "./Drinks";
 import Cart from "./Cart";
-import { ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+// import { ToastContainer } from "react-toastify";
+// import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
