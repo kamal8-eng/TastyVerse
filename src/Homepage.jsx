@@ -30,13 +30,13 @@ function Home() {
       {/* Categories Section */}
       <section className="max-w-7xl mx-auto py-20 px-6">
         <div className="flex items-center justify-between mb-10 flex-wrap gap-6">
-          {[
+          {/* {[
             { name: "All", link: "/", color: "from-green-400 to-green-600" },
-            { name: "Fruits", link: "/fruits", color: "from-emerald-400 to-green-500" },
+            { name: "Maincourse", link: "/maincourse", color: "from-emerald-400 to-green-500" },
             { name: "Vegetables", link: "/vegetables", color: "from-lime-400 to-green-400" },
             { name: "Snacks", link: "/snacks", color: "from-cyan-400 to-blue-500" },
             { name: "Drinks", link: "/drinks", color: "from-blue-400 to-indigo-500" },
-          ].map((cat) => (
+          ].map((cat) => ( */}
             <a
               key={cat.name}
               href={cat.link}
@@ -45,7 +45,7 @@ function Home() {
               <div className={`w-2 h-12 bg-gradient-to-b ${cat.color} rounded-full`}></div>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-800">{cat.name}</h2>
             </a>
-          ))}
+          {/* ))} */}
         </div>
 
         {/* Products Grid */}
